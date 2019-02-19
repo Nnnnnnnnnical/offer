@@ -2,6 +2,9 @@ package offer;
 
 import java.util.Stack;
 
+/**
+ *用两个栈来实现一个队列，完成队列的 Push 和 Pop 操作。
+ */
 public class offer09 {
 
     Stack<Integer> stack1 = new Stack<Integer>();
