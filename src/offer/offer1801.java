@@ -25,7 +25,7 @@ public class offer1801 {
             while(cur.next != delNode){
                 cur = cur .next;
             }
-            cur = null;
+            cur.next = null;
         }
         return head;
     }
