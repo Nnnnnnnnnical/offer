@@ -8,6 +8,7 @@ import java.util.ArrayList;
  */
 public class offer34 {
 
+    //flag防止存两次，因为target=0，root可能是左孩子或者右孩子
     private boolean flag = false;
 
     public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
