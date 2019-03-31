@@ -21,6 +21,10 @@ public class offer59 {
 
     public static ArrayList<Integer> maxInWindows(int [] num, int size) {
 
+        if(num.length==0 || size == 0 || num.length<size){
+            return new ArrayList<>();
+        }
+
         ArrayList<Integer> ans = new ArrayList<>();
         PriorityQueue<Integer> queue = new PriorityQueue<>((o1,o2)->o2-o1);
         for(int i = 0;i<size;i++){
